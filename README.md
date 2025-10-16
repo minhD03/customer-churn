@@ -36,5 +36,6 @@ Thesea are the screenshots captured from the experiments. Further Report can be 
 ![alt text](https://github.com/minhD03/Customer-Churn/blob/c4391a0fb11d53ede8f9090f2015a82a2d0eda1d/Image/LightGBM.png)
 ![alt text](https://github.com/minhD03/Customer-Churn/blob/9fb6c96741d46aa75b0769f35a3a85ea3d62dafd/Image/Result%20Example.png)
 
+
 ## 5. Conclusions:
 Based on the result from Notebook and the report, I believe that LightGBM should be more preferable Random Forest Classifier, especially for Customer Churn. Unlike Random Forest, which requires careful depth tuning to avoid underfitting or overfitting, LightGBM consistently delivers high performance with fewer iterations and better scalability. The gain and split-based feature importance outputs further confirm that LightGBM leverages nuanced patterns and prioritizes impactful variables, making it ideal for production-grade modeling where interpretability, speed and precision are critical. While Random Forest remains a reliable baseline, LightGBM’s advanced architecture and adaptability make it the model of choice for high-stakes, data-rich environments.
