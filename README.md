@@ -1,6 +1,6 @@
 # Customer Churn Experiment
 ## 1. Introduction:
-In this project, I will perform experiments in Microsoft Fabric to test out Machine Learning Models. These models will be used to predict the Customer Data to see whether a Customer is "Exited" or not. This will help deciding which customer is potential for long term profit. The experiment consists of two main models: Random Forest Classifier and LightG
+In this project, I will perform experiments in Microsoft Fabric to test out Machine Learning Models. These models will be used to predict the Customer Data to see whether a Customer is "Exited" or not. This will help deciding which customer is potential for long term profit. The experiment consists of two main models: Random Forest Classifier and LightGBM
 
 ## 2. Libraries Required:
 
