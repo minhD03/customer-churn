@@ -1,8 +1,19 @@
 # Customer Churn Experiment
-## 1. Introduction:
+
+## Table of Contents
+- [1) Introduction](#1-introduction)
+- [2) Libraries Required](#2-libraries-required)
+- [3) User guide](#3-user-guide)
+- [4) Preview Results](#4-preview-results)
+- [5) Conclusions](#5-conclusions)
+
+
+---
+
+## 1) Introduction:
 In this project, I will perform experiments in Microsoft Fabric to test out Machine Learning Models. These models will be used to predict the Customer Data to see whether a Customer is "Exited" or not. This will help deciding which customer is potential for long term profit. The experiment consists of multiple models: Random Forest Classification, CatBoost, LightGBM, etc.
 
-## 2. Libraries Required:
+## 2) Libraries Required:
 
 These are the libraries that were neccessary to conduct the experiment. To install these libraries, enter the following code:
 
@@ -19,7 +30,7 @@ These are the libraries that were neccessary to conduct the experiment. To insta
 | catboost          | `pip install catboost`     | Gradient boosting optimized for categorical features                    | Handles categorical variables natively, reducing preprocessing and improving accuracy          |
 | mlflow            | `pip install mlflow`       | ML lifecycle management: tracking, reproducibility, deployment          | Tracks experiments, logs models and metrics, supports deployment across platforms              |
 
-## 3. Instruction:
+## 3) User guide:
 
 - Download Data and Notebook.
 - Run the Notebook from the beginning cell.
@@ -31,7 +42,7 @@ DATA_ROOT = "lakehouse/default"
 DATA_FOLDER = "Files"
 DATA_FILE = "churn.csv"
 ``` 
-## 5. Preview Results:
+## 4) Preview Results:
 Thesea are the screenshots captured from the experiments. Further Report can be viewed in here for: [Notebook](https://github.com/minhD03/Customer-Churn/blob/0bb85d47524ff81890aff279dcfb7802b2fbd230/Code/Customer%20Churn%20-%20Nhat%20Minh%20Dang%20-%20ver%202.0.ipynb) And [Experiment Analysis](https://github.com/minhD03/Customer-Churn/blob/0bb85d47524ff81890aff279dcfb7802b2fbd230/Document/Customer%20Churn%20Experiment%20Report%20-%20Nhat%20Minh%20Dang%20-%20ver%202.0.pdf).
 
 ### Prediction Result:
@@ -48,5 +59,5 @@ Thesea are the screenshots captured from the experiments. Further Report can be 
 
 
 
-## 5. Conclusions:
+## 5) Conclusions:
 Based on both training and prediction metrics, CatBoost emerges as the most suitable model for customer churn prediction. It offers the highest prediction accuracy, strong ROC AUC and balanced precision-recall, indicating effective generalization and ranking ability. Its native handling of categorical features and robustness to overfitting make it ideal for real-world churn datasets. XGBoost and Gradient Boosting are close contenders, but CatBoost’s calibration and recall edge give it the lead.
